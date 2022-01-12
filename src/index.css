@@ -1,0 +1,10 @@
+@import url(//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+:root{
+ --font-family: "Gilroy ExtraBold";
+ --font-secondary: "Mulish";
+ --green: #05B69A;
+ --neon:#EEFF03;
+ --grey:#2F2F2F;
+}

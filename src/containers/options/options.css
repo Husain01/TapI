@@ -1,0 +1,72 @@
+.options{
+    height: 110vh;
+    background-color: var(--green);
+    margin-top: -1.25rem;
+    padding-top: 1.25rem;
+    /* display: flex;
+    flex-direction: column;
+    width: 100%; */
+}
+
+.options__section {
+    display: flex;
+    height: 150vh;
+}
+
+.options__header h1{
+    font-family: var(--font-family);
+    font-size: 3rem;
+    margin: 5rem;
+    margin-left: 9rem;
+    color: white;
+}
+
+.options__header-options {
+    width: 50%;
+    display: flex;
+    margin-left: 9rem;
+    flex-direction: column;
+    height: 150vh;
+}
+
+.options__header-option {
+    display: flex;
+    margin: 2rem 0;
+    
+}
+
+.options__sideline{
+    width: 0px;
+    height: 17rem;
+    border: 2px solid white;
+}
+
+.options__content {
+    margin-left:2rem ;
+}
+
+.options__content h2{
+    font-family: var(--font-family);
+    font-size: 4rem;
+    color: white;
+}
+
+.options__content p{
+    font-family: var(--font-secondary);
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 400;
+    width: 30rem;
+}
+
+.options__card {
+    width: 50%;
+    position: relative;
+}
+
+.options__card-hand {
+    width: 140%;
+    position: absolute;
+    right: -10rem;
+    top: -11rem;
+}

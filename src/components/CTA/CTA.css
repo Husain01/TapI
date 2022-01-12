@@ -1,0 +1,12 @@
+.main {
+    width: 146px;
+    height: 43px;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 20px;
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
