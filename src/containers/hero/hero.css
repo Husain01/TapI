@@ -4,11 +4,11 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: white;
+    z-index: 10;
 }
 
 .hero__section {
     display: flex;
-    /* width: 100%; */
     height: clamp(50vh, 57vw, 100vh);    background-color: var(--neon);
     border-radius: 30px;
     margin: 0 6.25rem;
@@ -19,7 +19,6 @@
 .hero__section-innerDiv{
     display: flex;
     width: 100%;
-    /* position: relative; */
 }
 
 .hero__section-innerDiv-left{
@@ -44,9 +43,7 @@
     margin-top: 30px;
 }
 
-/* .hero__section-innerDiv-right{
-    width: 100%;
-} */
+
 
 .hero__section-heroCard {
     position: absolute;

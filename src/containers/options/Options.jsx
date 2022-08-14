@@ -6,6 +6,8 @@ import { Controller, Scene } from 'react-scrollmagic';
 
 const Options = () => {
   return (
+    <Controller>
+     
     <div className="options">
       <div className="options__header">
           <h1>
@@ -42,11 +44,14 @@ const Options = () => {
           </div>
         </div>
       </div>
+      <Scene indicators={true} triggerHook="0" offset={-200} duration="30%" pin={true} enabled={true} >
       <div className="options__card">
           <img src={handCard} alt="Card" className="options__card-hand"/>
       </div>
+    </Scene>
           </div>
     </div>
+    </Controller>
   );
 };
 
