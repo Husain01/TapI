@@ -1,16 +1,23 @@
 .options{
-    height: 110vh;
+    height: fit-content;
     background-color: var(--green);
     margin-top: -1.25rem;
     padding-top: 1.25rem;
-    /* display: flex;
-    flex-direction: column;
-    width: 100%; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 9;
 }
 
 .options__section {
     display: flex;
-    height: 150vh;
+    height: 125vh;
+    overflow: hidden;
+}
+
+
+
+.scrollmagic-pin-spacer{
+    padding-bottom: 0;
 }
 
 .options__header h1{
@@ -19,14 +26,16 @@
     margin: 5rem;
     margin-left: 9rem;
     color: white;
+    
 }
 
 .options__header-options {
     width: 50%;
     display: flex;
     margin-left: 9rem;
+    margin-top: 9rem;
     flex-direction: column;
-    height: 150vh;
+    height: 125vh;
 }
 
 .options__header-option {
@@ -65,8 +74,6 @@
 }
 
 .options__card-hand {
-    width: 140%;
-    position: absolute;
-    right: -10rem;
-    top: -11rem;
+    width: 100%;
+    object-fit: cover;
 }
