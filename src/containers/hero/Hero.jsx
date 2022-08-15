@@ -3,6 +3,7 @@ import "./hero.css";
 import { Navbar } from "../../components";
 import heroCard from "../../assets/heroCard.svg";
 import scroll from "../../assets/scroll.svg";
+import arrow from "../../assets/arrow.svg";
 
 const Hero = () => {
   return (
@@ -21,7 +22,9 @@ const Hero = () => {
             </h1>
             <h3>Business cards just got smarter</h3>
             <div className="apply-button">
-              <button className="apply bg-green">Apply Now</button>
+              <button className="apply bg-green"><div className="apply-text">
+              Apply Now <img src={arrow} alt="" />
+            </div></button>
               <div className="apply-rectangle border-green"></div>
             </div>
           </div>

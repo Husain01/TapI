@@ -10,7 +10,7 @@
 
 .options__section {
     display: flex;
-    height: 125vh;
+    height: fit-content;
     overflow: hidden;
 }
 
