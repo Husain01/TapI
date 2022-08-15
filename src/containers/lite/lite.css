@@ -1,11 +1,15 @@
 .lite{
     height: 45rem;
     display: flex;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .lite__info{
     display: flex;
-    width: 50%;
     margin-left: 6.25rem;
     justify-content: center;
     align-items: flex-start;
@@ -45,7 +49,7 @@
 
 
 .lite-card{
-    width: 50%;
+    margin-left: auto;
 }
 
 .lite-card-svg{

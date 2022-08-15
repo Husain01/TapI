@@ -1,6 +1,6 @@
 import React from "react";
 import "./lite.css";
-import liteCard from "../../assets/tapi lite.svg";
+import liteCard from "../../assets/liteCard.png";
 import arrow from "../../assets/arrow.svg";
 
 const Lite = () => {
@@ -27,6 +27,7 @@ const Lite = () => {
         </div>
       </div>
       <div className="lite-card">
+    
         <img src={liteCard} alt="" className="lite-card-svg" />
       </div>
     </div>
