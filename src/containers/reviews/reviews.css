@@ -1,0 +1,83 @@
+.reviews {
+  background-color: var(--green);
+  margin-top: -1.25rem;
+  padding-top: 1.25rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 5;
+}
+
+.reviews-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reviews__header {
+  margin-left: 6.25rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 4rem;
+  width: 60%;
+  margin-top: 6.5rem;
+}
+
+.reviews__cards-section {
+  margin: 3rem 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviews__card {
+  width: 24rem;
+  height: 26rem;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reviews__card p {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  width: 85%;
+}
+
+.reviews__card-author {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #b1b1b144;
+}
+
+.reviews__card-author-dp {
+    height: 80%;
+    display: contents;}
+
+.reviews__card-author-dp img {
+  object-fit: cover;
+  height: inherit;
+}
+
+.reviews__card-author-text{
+    margin-left: 1.5rem;
+}
+
+.reviews__card-author-name{
+    font-family: var(--font-secondary);
+    color: var(--green);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.reviews__card-author-title{
+    font-family: var(--font-secondary);
+    font-size: .75rem;
+}
