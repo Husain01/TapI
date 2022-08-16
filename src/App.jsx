@@ -16,6 +16,7 @@ function App() {
       <Lite/>
       <Pro/>
       <Reviews/>
+      <Footer/>
       </div>
     </div>
   )
