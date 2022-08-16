@@ -15,6 +15,7 @@ function App() {
       <Video/>
       <Lite/>
       <Pro/>
+      <Reviews/>
       </div>
     </div>
   )
