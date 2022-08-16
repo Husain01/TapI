@@ -1,73 +1,81 @@
-.lite{
-    height: 45rem;
-    display: flex;
-    align-items: center;
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
+.lite {
+  height: 45rem;
+  margin-top: -1.25rem;
+  padding-top: 1.25rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 7;
+  background-color: white;
 }
 
-.lite__info{
-    display: flex;
-    margin-left: 6.25rem;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+.lite-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.lite__info-header{
-    display: flex;
-    gap: 1rem;
-    font-family: var(--font-family);
+.lite__info {
+  display: flex;
+  margin-left: 6.25rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-.lite__info-header h1{
-    font-size: 4.5rem;
-    color: var(--green);
+.lite__info-header {
+  display: flex;
+  gap: 1rem;
+  font-family: var(--font-family);
 }
 
-.text-stroke{
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
+.lite__info-header h1 {
+  font-size: 4.5rem;
+  color: var(--green);
+}
+
+.text-stroke {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
 }
 
 .lite__info-dimension {
-    font-family: var(--font-secondary);
-    margin-top: 1.25rem;
+  font-family: var(--font-secondary);
+  margin-top: 1.25rem;
 }
-.lite__info-dimension p{
-    font-size: 1.625rem;
-}
-
-.lite__info-dimension span{
-    display: block;
-    font-size: 2.25rem;
-    font-weight: 600;
-    margin-top: 1rem;
+.lite__info-dimension p {
+  font-size: 1.625rem;
 }
 
-
-.lite-card{
-    margin-left: auto;
+.lite__info-dimension span {
+  display: block;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
 }
 
-.lite-card-svg{
-    width: 100%;
-    object-fit: cover;
+.lite-card {
+  margin-left: auto;
 }
 
-.apply-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+.lite-card-svg {
+  width: 100%;
+  object-fit: cover;
 }
 
-.bg-orange{
-    background-color: var(--orange);
+.apply-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.border-orange{
-    border-color: var(--orange);
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.border-orange {
+  border-color: var(--orange);
 }
